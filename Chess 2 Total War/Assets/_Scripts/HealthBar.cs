@@ -6,6 +6,7 @@ public class HealthBar : MonoBehaviour
     public GameObject[] healthSegments; // Array to hold the health segments (Segment 1, Segment 2, Segment 3)
     private int currentHealth;
 
+
     void Start()
     {
         // Set the initial health to the total number of segments
