@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7567340334062237316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674166509829194535}
+  m_Layer: 0
+  m_Name: White Yutes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674166509829194535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567340334062237316}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 559.21844, y: 141.2392, z: -1.5670296}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8457495625437634106}
+  - {fileID: 7910668796952263267}
+  - {fileID: 8997604265290700651}
+  - {fileID: 757652541289098437}
+  - {fileID: 206910306498051456}
+  - {fileID: 833874447284649403}
+  - {fileID: 8672109150813456905}
+  - {fileID: 4604874804478759090}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &929925956074359400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &4604874804478759090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 929925956074359400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3593617783634454362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &206910306498051456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 3593617783634454362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4076474415545395041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &833874447284649403 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 4076474415545395041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4144357836347242015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &757652541289098437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 4144357836347242015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5070772737853703392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &8457495625437634106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 5070772737853703392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5429523473750200531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &8672109150813456905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 5429523473750200531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5755009809347841457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &8997604265290700651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 5755009809347841457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6829806545165557945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 674166509829194535}
+    m_Modifications:
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -549.76843
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -139.88919
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5670296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768051854463490924, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+      propertyPath: m_Name
+      value: WhiteYute_pawn (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+--- !u!4 &7910668796952263267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3674954365394754266, guid: 3e25f5549c2bca841a1480244463f60d, type: 3}
+  m_PrefabInstance: {fileID: 6829806545165557945}
+  m_PrefabAsset: {fileID: 0}
