@@ -7,19 +7,23 @@ public class GridManager : MonoBehaviour
 {
     [SerializeField] private int _rows, _cols;
     [SerializeField] private Tile _tilePrefab;
+    [SerializeField] private Piece _piecePrefab;
     [SerializeField] private Transform _cam;
 
 
-    private Dictionary<Vector2, Tile> _tiles;
+    private Dictionary<Tile, Vector2> _tiles; //Tile can get us [r,c], Vector2 is where it actually is on screen
+    private Dictionary<Tile, Piece> _pieces;
 
-    void Start() {
+    void Start()
+    {
         GenerateGrid();
     }
 
-    void GenerateGrid() {
+    void GenerateGrid() 
+    {
         float tile_size = 1.35f;
 
-        _tiles = new Dictionary<Vector2, Tile>();
+        _tiles = new Dictionary<Tile, Vector2>();
         for (int x = 0; x < _cols; x++) {
             for (int y = 0; y < _rows; y++) {
                 float x_pos = x * tile_size;
@@ -29,17 +33,17 @@ public class GridManager : MonoBehaviour
                 var spawnedTile = Instantiate(_tilePrefab, new Vector3(x_pos, y_pos), Quaternion.identity);
                 spawnedTile.name = $"Tile {x} {y}";
 
-                spawnedTile.Init(isOffset);
+                spawnedTile.Init(isOffset, x, y);
                 
-                _tiles[new Vector2(x, y)] = spawnedTile;
+                _tiles[spawnedTile] = new Vector2(x, y);
             }
         }
     }
 
-    public Tile GetTileAtPosition(Vector2 pos) {
-        if (_tiles.TryGetValue(pos, out var tile)) {
-            return tile;
-        }
-        return null;
+    void SetPiecesUp() {
+        _pieces = new Dictionary<Tile, Piece>();
+        // var pawn1 = Instantiate(_piecePrefab, )
     }
+
+    
 }
