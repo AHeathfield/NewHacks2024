@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: -6949397633527395518
     second: W_federal_1
+  - first:
+      213: -6396886782534188451
+    second: W_federal_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,10 +109,10 @@ TextureImporter:
       name: W_federal_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 69
-        height: 106
+        x: 33
+        y: 104
+        width: 70
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +131,10 @@ TextureImporter:
       name: W_federal_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 103
-        width: 68
-        height: 32
+        x: 43
+        y: 89
+        width: 50
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,6 +145,28 @@ TextureImporter:
       bones: []
       spriteID: 24bc8aafba7ce8f90800000000000000
       internalID: -6949397633527395518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_federal_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5288aa0d51b937a0800000000000000
+      internalID: -6396886782534188451
       vertices: []
       indices: 
       edges: []
