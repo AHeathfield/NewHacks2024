@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      B_rhino_0: 4482988908985141835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

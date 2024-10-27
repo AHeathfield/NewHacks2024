@@ -10,30 +10,31 @@ public enum PieceType
 
 public class Piece : MonoBehaviour
 {
-    [SerializeField] private Sprite sprite;
-    [SerializeField] private Vector2 tilePosition;
-    [SerializeField] private Vector2 pieceSize;
+    [SerializeField] private Sprite _sprite;
+    [SerializeField] private PieceType _type;
+    [SerializeField] private int _pieceCol;
+    [SerializeField] private int _pieceRow;
 
-    [SerializeField] private PieceType type;
 
-    private SpriteRenderer spriteRenderer;
-
-    private void Awake()
+    public void Init(Sprite sprite, PieceType type, int pieceCol, int pieceRow)
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        if (sprite != null)
-        {
-            spriteRenderer.sprite = sprite;
-        }
+        _sprite = sprite;
+        _type = type;
+        _pieceCol = pieceCol;
+        _pieceRow = pieceRow;
     }
 
-    public Vector2 GetTilePosition()
+    // Getters
+    public int GetPieceColumn()
     {
-        return tilePosition;
+        return _pieceCol;
     }
-
+    public int GetPieceRow() 
+    {
+        return _pieceRow;
+    }
     public PieceType GetPieceType()
     {
-        return type;
+        return _type;
     }
 }
