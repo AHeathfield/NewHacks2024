@@ -12,7 +12,7 @@ public class Piece : MonoBehaviour
 {
     [SerializeField] private Sprite sprite;
     [SerializeField] private Vector2 tilePosition;
-    [SerializeField] private Vector2 pieceSize;
+    //[SerializeField] private Vector2 pieceSize;
 
     [SerializeField] private PieceType type;
 

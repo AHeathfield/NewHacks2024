@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3674954365394754266}
   - component: {fileID: 8173187147428505618}
+  - component: {fileID: -5336368287174736607}
   m_Layer: 0
   m_Name: WhiteYute_pawn
   m_TagString: Untagged
@@ -87,3 +88,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5336368287174736607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768051854463490924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32377c323ef2b664196b91af5989e54c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  tilePosition: {x: 0, y: 0}
+  pieceSize: {x: 0, y: 0}
+  type: 0
