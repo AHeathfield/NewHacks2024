@@ -7,6 +7,7 @@ public class GridManager : MonoBehaviour
 {
     [SerializeField] private int _rows, _cols;
     [SerializeField] private Tile _tilePrefab;
+    [SerializeField] private GameObject whiteBishop1;
     [SerializeField] private GameObject[] _whitePawns = new GameObject[8];
     [SerializeField] private GameObject[] _blackPawns = new GameObject[8];
     [SerializeField] private Transform _cam;
