@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5598263574607503050}
@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d7d99355489a43f49a23a80b6c09e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseColor: {r: 0.07262372, g: 0.9056604, b: 0.10728618, a: 1}
-  _offsetColor: {r: 0.27901387, g: 0.6226415, b: 0.2965948, a: 1}
+  _baseColor: {r: 0.7058824, g: 0.5294118, b: 0.38431373, a: 1}
+  _offsetColor: {r: 0.9372549, g: 0.84705883, b: 0.7058824, a: 1}
   _renderer: {fileID: 8710311676293774820}
   _highlight: {fileID: 8832614781950786418}
 --- !u!61 &8385151791851980873
