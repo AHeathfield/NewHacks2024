@@ -16,7 +16,16 @@ public class GridManager : MonoBehaviour
     [SerializeField] private GameObject whiteBishop1;
     [SerializeField] private GameObject whiteBishop2;
     [SerializeField] private GameObject[] _whitePawns = new GameObject[8];
+    [SerializeField] private GameObject blackKing;
+    [SerializeField] private GameObject blackQueen;
+    [SerializeField] private GameObject blackKnight1;
+    [SerializeField] private GameObject blackKnight2;
+    [SerializeField] private GameObject blackKnight3;
+    [SerializeField] private GameObject blackRook;
+    [SerializeField] private GameObject blackBishop1;
+    [SerializeField] private GameObject blackBishop2;
     [SerializeField] private GameObject[] _blackPawns = new GameObject[8];
+
     [SerializeField] private Transform _cam;
 
 
@@ -75,6 +84,16 @@ public class GridManager : MonoBehaviour
         for (int i = 0; i < _blackPawns.Length; i++) {
             MovePiece(_blackPawns[i], convertRowColToVector(i,6));
         }
+
+        // Black Pieces
+        MovePiece(blackBishop1, convertRowColToVector(1,7));
+        MovePiece(blackBishop2, convertRowColToVector(5,7));
+        MovePiece(blackKnight1, convertRowColToVector(7,7));
+        MovePiece(blackKnight2, convertRowColToVector(2,7));
+        MovePiece(blackKnight3, convertRowColToVector(6,7));
+        MovePiece(blackRook, convertRowColToVector(0,7));
+        MovePiece(blackQueen, convertRowColToVector(4,7));
+        MovePiece(blackKing, convertRowColToVector(3,7));
     }
 
      private void MovePiece(GameObject piece, Vector3 newPosition)
