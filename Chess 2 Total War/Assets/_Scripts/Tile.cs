@@ -12,6 +12,7 @@ public class Tile : MonoBehaviour
     public void Init(bool isOffset, int col, int row) 
     {
         _renderer.color = isOffset ? _offsetColor : _baseColor;
+        _renderer.sortingOrder = 1;
         _col = col;
         _row = row;
     }
