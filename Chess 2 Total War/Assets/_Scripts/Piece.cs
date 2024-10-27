@@ -16,6 +16,17 @@ public class Piece : MonoBehaviour
 
     [SerializeField] private PieceType type;
 
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (sprite != null)
+        {
+            spriteRenderer.sprite = sprite;
+        }
+    }
+
     public Vector2 GetTilePosition()
     {
         return tilePosition;
