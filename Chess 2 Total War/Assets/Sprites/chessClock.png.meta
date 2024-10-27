@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chessClock_0: 3624515581030484656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
