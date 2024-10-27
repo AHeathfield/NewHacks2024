@@ -47,4 +47,22 @@ MonoBehaviour:
   _rows: 8
   _cols: 8
   _tilePrefab: {fileID: 3487442512310126240, guid: c4dec57a9017b49bb9e6f827c6f965e0, type: 3}
+  _whitePawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _blackPawns:
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
+  - {fileID: 6032845148337723887, guid: 863a38aa91ee72a4e9378eb45d56123e, type: 3}
   _cam: {fileID: 2053494865122696612, guid: 6375e22eb54c94a0aa8fa3f227ee7272, type: 3}
