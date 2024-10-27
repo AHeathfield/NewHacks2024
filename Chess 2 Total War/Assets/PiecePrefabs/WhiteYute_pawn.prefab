@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3674954365394754266}
   - component: {fileID: 8173187147428505618}
-  - component: {fileID: -5336368287174736607}
+  - component: {fileID: -5464670628198435814}
   m_Layer: 0
   m_Name: WhiteYute_pawn
   m_TagString: Untagged
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5962784847815230221, guid: e99b38885df8f984eb1e470059a24273, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-5336368287174736607
+--- !u!114 &-5464670628198435814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,10 +97,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6768051854463490924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32377c323ef2b664196b91af5989e54c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a65cbf35fc4147d8b863696d0bdae9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  tilePosition: {x: 0, y: 0}
-  pieceSize: {x: 0, y: 0}
-  type: 0
+  _type: 0
+  _pieceCol: 0
+  _pieceRow: 0
+  health: 1
+  damage: 1
