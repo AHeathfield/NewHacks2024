@@ -103,10 +103,10 @@ TextureImporter:
       name: W_hurricane_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7
-        width: 134
-        height: 114
+        x: 0
+        y: 9
+        width: 135
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
