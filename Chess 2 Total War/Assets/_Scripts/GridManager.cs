@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
+    public static GridManager Instance;
     [SerializeField] private int _rows, _cols;
     [SerializeField] private Tile _tilePrefab;
     [SerializeField] private GameObject whiteKing;
@@ -29,16 +30,20 @@ public class GridManager : MonoBehaviour
     [SerializeField] private Transform _cam;
 
 
-    // private Dictionary<Tile, Vector3> _tiles; //Tile can get us [r,c], Vector2 is where it actually is on screen
+    // private Dictionary<Vector2, Tile> _tiles; //Tile can get us [r,c], Vector2 is where it actually is on screen
     // private Dictionary<Tile, Piece> _pieces;
 
-    void Start()
+    void Awake()
     {
-        GenerateGrid();
-        SetPiecesUp();
+        Instance = this;
     }
+    // void Start()
+    // {
+    //     GenerateGrid();
+    //     SetPiecesUp();
+    // }
 
-    void GenerateGrid() 
+    public void GenerateGrid() 
     {
         float tile_size = 1.35f;
 
@@ -57,7 +62,12 @@ public class GridManager : MonoBehaviour
                 // _tiles[spawnedTile] = new Vector3(x, y);
             }
         }
+
+        GameManager.Instance.UpdateGameState(GameState.SpawnBlack);
+    
     }
+
+    
 
     private Vector3 convertRowColToVector(int col, int row)
     {
