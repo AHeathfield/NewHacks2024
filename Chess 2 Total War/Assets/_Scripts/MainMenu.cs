@@ -5,22 +5,30 @@ using System.Collections;
 public class MainMenu : MonoBehaviour
 
 {
-    //public Animator animator;
-
-
-    void Start()
-    {
-        //animator = GetComponent<Animator>();
-    }
     public void PlayGame()
     {
-        //animator.SetTrigger("PlayTrigger");
+        StartCoroutine(PlayDelay());
+    }
+
+    public void PieceGallery()
+    {
+        StartCoroutine(PiecesDelay());
+    }
+
+    private IEnumerator PlayDelay()
+    {
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private IEnumerator PiecesDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
     public void QuitGame()
     {
-        //animator.SetTrigger("QuitTrigger");
         Application.Quit();
-    }
+    }    
 
 }
