@@ -5,6 +5,10 @@ public class Tile : MonoBehaviour
     [SerializeField] private Color _baseColor, _offsetColor;
     [SerializeField] private SpriteRenderer _renderer;
     [SerializeField] private GameObject _highlight;
+    [SerializeField] private bool _isWalkable;
+    public BaseUnit OccupiedUnit;
+    public bool Walkable => _isWalkable && OccupiedUnit == null;
+
     [SerializeField] private int _col;
     [SerializeField] private int _row;
     
@@ -17,16 +21,6 @@ public class Tile : MonoBehaviour
         _row = row;
     }
 
-    public int GetTileColumn() 
-    {
-        return _col;
-    }
-
-    public int GetTileRow() 
-    {
-        return _row;
-    }
-
     void OnMouseEnter() 
     {
         _highlight.SetActive(true);
@@ -35,5 +29,17 @@ public class Tile : MonoBehaviour
     void OnMouseExit() 
     {
         _highlight.SetActive(false);
+    }
+
+    // This basically sets the position of a unit
+    public void SetUnit(BaseUnit unit) {
+        // When a piece moves the tile it was on, is now going to be null
+        if (unit.OccupiedTile != null) {
+            unit.OccupiedTile.OccupiedUnit = null;
+        }
+        // Moves a piece to a new position
+        unit.transform.position = transform.position;
+        OccupiedUnit = unit; //Basically lets know there now is a unit there
+        unit.OccupiedTile = this;
     }
 }

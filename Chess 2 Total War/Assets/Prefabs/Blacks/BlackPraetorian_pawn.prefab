@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918216143335207467}
   - component: {fileID: 5008897566523969586}
-  - component: {fileID: 7894329948613303736}
+  - component: {fileID: 2214965440435819664}
   m_Layer: 0
   m_Name: BlackPraetorian_pawn
   m_TagString: Untagged
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7894329948613303736
+--- !u!114 &2214965440435819664
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,14 +98,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6032845148337723887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a65cbf35fc4147d8b863696d0bdae9b, type: 3}
+  m_Script: {fileID: 11500000, guid: a49b5df702c3e904a9c4d5bdc40cddd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 0
-  _pieceCol: 0
-  _pieceRow: 0
-  health: 1
-  damage: 1
 --- !u!1001 &320670098849807886
 PrefabInstance:
   m_ObjectHideFlags: 0
