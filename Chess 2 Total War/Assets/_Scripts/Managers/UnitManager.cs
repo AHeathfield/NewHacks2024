@@ -8,6 +8,10 @@ public class UnitManager : MonoBehaviour
 
 	private List<ScriptableUnit> _units;
 
+	public BaseBlack SelectedBlack;
+
+	public BaseWhite SelectedWhite;
+
 	void Awake()
 	{
 		Instance = this;
@@ -52,4 +56,12 @@ public class UnitManager : MonoBehaviour
 		// Going through all the units where the units are either black or white and we are ordering the units randomly and then returning the first units prefab
 		return (T)_units.Where(u => u.Side == side).OrderBy(o => Random.value).First().UnitPrefab;
 	}
+
+	public void SetSelectedBlack(BaseBlack blackPiece){
+		SelectedBlack = blackPiece;
+
+		MenuManager.Instance.ShowSelectedBlack(blackPiece);
+		
+	}
+
 }
