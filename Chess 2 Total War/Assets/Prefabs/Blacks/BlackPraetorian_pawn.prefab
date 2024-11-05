@@ -101,7 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49b5df702c3e904a9c4d5bdc40cddd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnitName: Black Praetorian
   OccupiedTile: {fileID: 0}
+  Side: 0
 --- !u!1001 &320670098849807886
 PrefabInstance:
   m_ObjectHideFlags: 0
