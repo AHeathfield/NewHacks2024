@@ -55,6 +55,7 @@ public class GridManager : MonoBehaviour
 
     public Tile GetWhiteSpawnTile() {
         // Goes through tiles dict and the looks for tiles that y value is less than half the rows, then orders them randomly and then takes first value.
-        return _tiles.Where(t => t.Key.y > _rows/4 && t.Value.Walkable).OrderBy(tag => Random.value).First().Value;
+        return _tiles.Where(t => t.Key.y >= _rows*3/4 && t.Value.Walkable).OrderBy(tag => Random.value).First().Value;
+        //!!!Should figure out the math
     }
 }

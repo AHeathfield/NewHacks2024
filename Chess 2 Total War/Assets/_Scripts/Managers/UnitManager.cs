@@ -27,6 +27,24 @@ public class UnitManager : MonoBehaviour
 
 			randomSpawnedTile.SetUnit(spawnedBlack); // Sets the position of the black piece
 		}
+
+		GameManager.Instance.UpdateGameState(GameState.SpawnWhites);
+	}
+
+	public void SpawnWhites()
+	{
+		var whiteCount = 1;
+
+		for (int i = 0; i < whiteCount; i++) { //For every white piece we want to spawn:
+			// A random white piece
+			var randomPrefab = GetRandomUnit<BaseWhite>(Side.White);
+			var spawnedWhite = Instantiate(randomPrefab);
+			var randomSpawnedTile = GridManager.Instance.GetWhiteSpawnTile();
+
+			randomSpawnedTile.SetUnit(spawnedWhite); // Sets the position of the black piece
+		}
+
+		GameManager.Instance.UpdateGameState(GameState.BlackTurn);
 	}
 
 	// If we want to pick a random piece from selection

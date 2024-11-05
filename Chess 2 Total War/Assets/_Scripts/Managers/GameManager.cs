@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
                 UnitManager.Instance.SpawnBlacks();
                 break;
             case GameState.SpawnWhites:
+                UnitManager.Instance.SpawnWhites();
                 break;
             case GameState.BlackTurn:
                 break;
