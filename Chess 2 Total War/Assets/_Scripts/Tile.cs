@@ -42,4 +42,21 @@ public class Tile : MonoBehaviour
         OccupiedUnit = unit; //Basically lets know there now is a unit there
         unit.OccupiedTile = this;
     }
+
+    void OnMouseDown(){
+        if (GameManager.Instance.State != GameState.BlackTurn) return;
+
+        if (OccupiedUnit != null){
+            if (OccupiedUnit.Side == Side.Black) { //If the piece we're looking at is a black piece:
+                //Set the selected piece for the unit manager instance to the piece on the current tile that the mouse is down on
+                UnitManager.Instance.SetSelectedBlack((BaseBlack)OccupiedUnit);
+            }
+            else {
+                if (UnitManager.Instance.SelectedBlack != null) {
+
+                }
+            }
+
+        }
+    }
 }
