@@ -61,7 +61,6 @@ public class UnitManager : MonoBehaviour
 		SelectedBlack = blackPiece;
 
 		MenuManager.Instance.ShowSelectedBlack(blackPiece);
-		
 	}
 
 }

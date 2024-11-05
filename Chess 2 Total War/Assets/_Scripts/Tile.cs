@@ -19,6 +19,10 @@ public class Tile : MonoBehaviour
         _renderer.sortingOrder = 1;
         _col = col;
         _row = row;
+
+         // Set _highlight layer order
+        _highlight.GetComponent<SpriteRenderer>().sortingOrder = 2;
+        
     }
 
     void OnMouseEnter() 
@@ -51,7 +55,7 @@ public class Tile : MonoBehaviour
         if (OccupiedUnit != null){
             if (OccupiedUnit.Side == Side.Black) { //If the piece we're looking at is a black piece:
                 //Set the selected piece for the unit manager instance to the piece on the current tile that the mouse is down on
-                UnitManager.Instance.SetSelectedBlack((BaseBlack)OccupiedUnit);
+                UnitManager.Instance.SetSelectedBlack((BaseBlack) OccupiedUnit);
             }
             else {
                 if (UnitManager.Instance.SelectedBlack != null) {

@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +19,7 @@ public class MenuManager : MonoBehaviour
         }
         
         if (tile.OccupiedUnit) {
-            _tileUnitObject.GetComponentInChildren<Text>().text = tile.OccupiedUnit.UnitName;
+            _tileUnitObject.GetComponentInChildren<TMP_Text>().text = "Unit:\n" + tile.OccupiedUnit.UnitName;
             _tileUnitObject.SetActive(true);
         }
     }
@@ -30,7 +31,7 @@ public class MenuManager : MonoBehaviour
             return;
        }
        
-        _selectedBlackObject.GetComponentInChildren<Text>().text = black.UnitName;
+        _selectedBlackObject.GetComponentInChildren<TMP_Text>().text = "Selected:\n" + black.UnitName;
         _selectedBlackObject.SetActive(true);
     }
 }
