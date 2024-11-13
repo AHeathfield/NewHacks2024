@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectedBlack: {fileID: 0}
+  SelectedPiece: {fileID: 0}
   SelectedWhite: {fileID: 0}
 --- !u!4 &57119815
 Transform:
@@ -365,6 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _selectedBlackObject: {fileID: 1027244852}
+  _selectedPieceObject: {fileID: 1027244852}
   _tileUnitObject: {fileID: 441965165}
 --- !u!1 &921589899
 GameObject:

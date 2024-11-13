@@ -49,32 +49,83 @@ public class Tile : MonoBehaviour
         unit.OccupiedTile = this;
     }
 
+
+    // When user clicks on a tile
+    // CODE IS REDUNDANT, should split into diff methods like attack(), selectPiece()
     void OnMouseDown(){
-        if (GameManager.Instance.State != GameState.BlackTurn) return;
+        if (GameManager.Instance.State != GameState.BlackTurn && GameManager.Instance.State != GameState.WhiteTurn) return;
 
-        if (OccupiedUnit != null){
-            if (OccupiedUnit.Side == Side.Black) { //If the piece we're looking at is a black piece:
-                //Set the selected piece for the unit manager instance to the piece on the current tile that the mouse is down on
-                UnitManager.Instance.SetSelectedBlack((BaseBlack) OccupiedUnit);
+        //For BLACK Turn
+        if (GameManager.Instance.State == GameState.BlackTurn) {
+            if (OccupiedUnit != null){
+                // Sets the selected piece
+                if (OccupiedUnit.Side == Side.Black) { //If the piece we're looking at is a black piece:
+                    //Set the selected piece for the unit manager instance to the piece on the current tile that the mouse is down on
+                    UnitManager.Instance.SetSelectedPiece(OccupiedUnit);
+                }
+
+                // Attack
+                else {
+                    if (UnitManager.Instance.SelectedPiece != null) {
+                        var white = (BaseWhite) OccupiedUnit;
+                        //We can change this to an attack funciton Ex: UnitManager.Instance.Attack();
+                        Destroy(white.gameObject);
+                        UnitManager.Instance.SetSelectedPiece(null);
+
+                        //NEED TO MAKE GAMESTATE WHITE TURN HERE!
+                        GameManager.Instance.State = GameState.WhiteTurn;
+                    }
+                }
             }
+            // This means we already have a selected Unit and the tile we clicked is empty, therefore we move the piece there
             else {
-                if (UnitManager.Instance.SelectedBlack != null) {
-                    var white = (BaseWhite) OccupiedUnit;
-                    //We can change this to an attack funciton Ex: UnitManager.Instance.Attack();
-                    Destroy(white.gameObject);
-                    UnitManager.Instance.SetSelectedBlack(null);
+                // This checks if something is selected
+                if (UnitManager.Instance.SelectedPiece != null){
+                    // Need to add logic to make sure the piece can only move within its range
+                    SetUnit(UnitManager.Instance.SelectedPiece);
+                    UnitManager.Instance.SetSelectedPiece(null);
+                    
+                    // NEED TO MAKE GAMESTATE WHITE TURN!
+                    GameManager.Instance.State = GameState.WhiteTurn;
+                }
+            }
+        }   
 
+        // For WHITE Turn
+        else {
+            if (OccupiedUnit != null){
+                // Sets the selected piece
+                if (OccupiedUnit.Side == Side.White) { //If the piece we're looking at is a black piece:
+                    //Set the selected piece for the unit manager instance to the piece on the current tile that the mouse is down on
+                    UnitManager.Instance.SetSelectedPiece(OccupiedUnit);
+                }
+
+                // Attack
+                else {
+                    if (UnitManager.Instance.SelectedPiece != null) {
+                        var black = (BaseBlack) OccupiedUnit;
+                        //We can change this to an attack funciton Ex: UnitManager.Instance.Attack();
+                        Destroy(black.gameObject);
+                        UnitManager.Instance.SetSelectedPiece(null);
+
+                        //NEED TO MAKE GAMESTATE BLACK TURN HERE!
+                        GameManager.Instance.State = GameState.BlackTurn;
+                    }
+                }
+            }
+            // This means we already have a selected Unit and the tile we clicked is empty, therefore we move the piece there
+            else {
+                // This checks if something is selected
+                if (UnitManager.Instance.SelectedPiece != null){
+                    // Need to add logic to make sure the piece can only move within its range
+                    SetUnit(UnitManager.Instance.SelectedPiece);
+                    UnitManager.Instance.SetSelectedPiece(null);
+                    
+                    // NEED TO MAKE GAMESTATE BLACK TURN!
+                    GameManager.Instance.State = GameState.BlackTurn;
                 }
             }
         }
-        // This means we already have a selected Unit and the tile we clicked is empty, therefore we move the piece there
-        else {
-            // This checks if something is selected
-            if (UnitManager.Instance.SelectedBlack != null){
-                // Need to add logic to make sure the piece can only move within its range
-                SetUnit(UnitManager.Instance.SelectedBlack);
-                UnitManager.Instance.SetSelectedBlack(null);
-            }
-        }
+
     }
 }

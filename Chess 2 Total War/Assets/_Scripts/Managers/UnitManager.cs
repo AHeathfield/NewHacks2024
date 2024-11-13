@@ -8,9 +8,10 @@ public class UnitManager : MonoBehaviour
 
 	private List<ScriptableUnit> _units;
 
-	public BaseBlack SelectedBlack;
+	// public BaseBlack SelectedBlack;
+	public BaseUnit SelectedPiece;
 
-	public BaseWhite SelectedWhite;
+	// public BaseWhite SelectedWhite;
 
 	void Awake()
 	{
@@ -57,10 +58,15 @@ public class UnitManager : MonoBehaviour
 		return (T)_units.Where(u => u.Side == side).OrderBy(o => Random.value).First().UnitPrefab;
 	}
 
-	public void SetSelectedBlack(BaseBlack blackPiece){
-		SelectedBlack = blackPiece;
+	// public void SetSelectedBlack(BaseBlack blackPiece){
+	// 	SelectedBlack = blackPiece;
 
-		MenuManager.Instance.ShowSelectedBlack(blackPiece);
+	// 	MenuManager.Instance.ShowSelectedBlack(blackPiece);
+	// }
+
+	public void SetSelectedPiece(BaseUnit piece){
+		SelectedPiece = piece;
+
+		MenuManager.Instance.ShowSelectedPiece(piece);
 	}
-
 }

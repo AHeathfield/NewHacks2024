@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
-    [SerializeField] private GameObject _selectedBlackObject, _tileUnitObject;
+    [SerializeField] private GameObject _selectedPieceObject, _tileUnitObject; //_selectedBlackObject
 
     void Awake(){
         Instance = this;
@@ -24,14 +24,26 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void ShowSelectedBlack(BaseBlack black){
+    // public void ShowSelectedBlack(BaseBlack black){
 
-       if (black == null){
-            _selectedBlackObject.SetActive(false);
+    //    if (black == null){
+    //         _selectedBlackObject.SetActive(false);
+    //         return;
+    //    }
+       
+    //     _selectedBlackObject.GetComponentInChildren<TMP_Text>().text = "Selected:\n" + black.UnitName;
+    //     _selectedBlackObject.SetActive(true);
+    // }
+
+
+    public void ShowSelectedPiece(BaseUnit piece){
+
+       if (piece == null){
+            _selectedPieceObject.SetActive(false);
             return;
        }
        
-        _selectedBlackObject.GetComponentInChildren<TMP_Text>().text = "Selected:\n" + black.UnitName;
-        _selectedBlackObject.SetActive(true);
+        _selectedPieceObject.GetComponentInChildren<TMP_Text>().text = "Selected:\n" + piece.UnitName;
+        _selectedPieceObject.SetActive(true);
     }
 }
